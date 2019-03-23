@@ -1,0 +1,39 @@
+:root {
+	--bg: #2F3D51;
+	--fg: #36465D;
+	--alt: var(--bg);
+	--sel: #9AA2AE;
+	--texbg: #AFB5BE;
+	--texfg: #AFB5BE;
+	--texsel: var(--bg);
+	--texdis: var(--bor);
+	--texlnk: #529ecc;
+	--bor: #505E72;
+	--boralt: var(--bor);
+	--bar: #B08AC8;
+	--bartex: #FFFFFF;
+	--barchk: #CCCCCC;
+	--barup: #64A8D1;
+	--barerror: #DD6E53;
+	--bardown: #67C396;
+	--barpause: #F3A343;
+}
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-track {
+	background-color: var(--fg);
+}
+ 
+::-webkit-scrollbar-button {
+	background-color: var(--alt);
+	border: 1px solid var(--fg);
+}
+ 
+::-webkit-scrollbar-thumb {
+	background-color: var(--alt);
+	border: 1px solid var(--fg);
+}
+
+::-webkit-scrollbar-corner {
+	background-color: var(--fg);
+}

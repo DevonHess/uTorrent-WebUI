@@ -1,0 +1,43 @@
+:root {
+	--bg: #262626;
+	--fg: #2D2D2D;
+	--tool: var(--bg);
+	--alt: #3A3A3A;
+	--sel: #193754;
+	--texbg: #C4C4C4;
+	--texfg: #C4C4C4;
+	--texsel: #FFFFFF;
+	--texdis: #C0C0C0;
+	--texlnk: #4894B3;
+	--bor: #454545;
+	--boralt: #595959;
+	--bar: #193754;
+	--bartex: #FFFFFF;
+	--barchk: #CCCCCC;
+	--barup: #41778F;
+	--barerror: #C02942;
+	--bardown: #66812E;
+}
+
+#mainCatList {
+	background: var(--bg);
+}
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-track {
+	background-color: var(--bg);
+}
+ 
+::-webkit-scrollbar-button {
+	background-color: #585858;
+	border: 1px solid var(--bg);
+}
+ 
+::-webkit-scrollbar-thumb {
+	background-color: #585858;
+	border: 1px solid var(--bg);
+}
+
+::-webkit-scrollbar-corner {
+	background-color: var(--fg);
+}

@@ -1,0 +1,54 @@
+:root {
+	--bg: #000000;
+	--fg: #000000;
+	--tool: #000000;
+	--alt: #000000;
+	--sel: #FFFFFF;
+	--texbg: #FFFFFF;
+	--texfg: #FFFFFF;
+	--texsel: #000000;
+	--texdis: #FFFFFF;
+	--texlnk: #FFFFFF;
+	--bor: #FFFFFF;
+	--boralt: #FFFFFF;
+	--bar: #FFFFFF;
+	--bartex: #000000;
+	--bartexdis: #FFFFFF;
+	--barbor: #FFFFFF;
+	--barchk: #FFFFFF;
+	--barincomp: #FFFFFF;
+	--barup: #FFFFFF;
+	--barqup: #FFFFFF;
+	--barerror: #FFFFFF;
+	--bardown: #FFFFFF;
+	--barcomp: #FFFFFF;
+	--barqdown: #FFFFFF;
+	--barpause: #FFFFFF;
+	--speedbg: #000000;
+	--speedfg: #000000;
+	--speedtex: #FFFFFF;
+	--speedbor: #FFFFFF;
+	--speedboralt: #FFFFFF;
+	--speedup: #777777;
+	--speeddown: #FFFFFF;
+	filter: grayscale(100%);
+}
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-track {
+	background-color: var(--bg);
+}
+ 
+::-webkit-scrollbar-button {
+	background-color: var(--sel);
+	border: 1px solid var(--bg);
+}
+ 
+::-webkit-scrollbar-thumb {
+	background-color: var(--sel);
+	border: 1px solid var(--bg);
+}
+
+::-webkit-scrollbar-corner {
+	background-color: var(--fg);
+}

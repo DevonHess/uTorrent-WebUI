@@ -1,0 +1,62 @@
+:root {
+	--bg: #2A2C31;
+	--fg: #36393E;
+	--tool: #202225;
+	--alt: #2F3337;
+	--sel: #42464D;
+	--texbg: #494A4D;
+	--texfg: #A5A7A9;
+	--texsel: #F6F6EC;
+	--texdis: #C0C0C0;
+	--texlnk: #0096cf;
+	--bor: #2F3237;
+	--boralt: #46494E;
+	--bar: #7289DA;
+	--bartex: var(--texsel);
+	--bartexdis: var(--bartex);
+	--barbor: var(--boralt);
+	--barchk: #4A4C52;
+	--barincomp: var(--barchk);
+	--barup: #208ACF;
+	--barqup: var(--barup);
+	--barerror: #F04747;
+	--bardown: #43B581;
+	--barcomp: var(--bardown);
+	--barqdown: var(--bardown);
+	--barpause: #FAA61A;
+	--speedbg: var(--bg);
+	--speedfg: var(--bg);
+	--speedbor: var(--bor);
+	--speedboralt: var(--boralt);
+	--speedtex: var(--texlnk);
+	--speedup: var(--barup);
+	--speeddown: var(--bardown)
+}
+
+#mainCatList {
+	background: var(--bg);
+}
+
+input.btn {
+	background: var(--bar);
+	color: var(--bartex);
+}
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-track {
+	background-color: var(--bg);
+}
+ 
+::-webkit-scrollbar-button {
+	background-color: #1E2124;
+	border: 1px solid var(--bg);
+}
+ 
+::-webkit-scrollbar-thumb {
+	background-color: #1E2124;
+	border: 1px solid var(--bg);
+}
+
+::-webkit-scrollbar-corner {
+	background-color: var(--fg);
+}

@@ -1,0 +1,336 @@
+:root {
+	--base03: #002b36;
+	--base02: #073642;
+	--base01: #586e75;
+	--base00: #657b83;
+	--base0: #839496;
+	--base1: #93a1a1;
+	--base2: #eee8d5;
+	--base3: #fdf6e3;
+	--yellow: #b58900;
+	--orange: #cb4b16;
+	--red: #dc322f;
+	--magenta: #d33682;
+	--violet: #6c71c4;
+	--blue: #268bd2;
+	--cyan: #2aa198;
+	--green: #859900;
+
+	--bg: var(--base02);
+	--fg: var(--base03);
+	--alt: var(--base02);
+	--sel: var(--base01);
+	--texbg: var(--base0);
+	--texfg: var(--base0);
+	--texdis: var(--base1);
+	--texlnk: var(--violet);
+	--bor: var(--bg);
+	--boralt: var(--bg);
+	--bar: var(--violet);
+	--barchk: var(--base01);
+	--barup: var(--blue);
+	--barerror: var(--red);
+	--bardown: var(--green);
+	--speedfg: var(--bg);
+	--speedtex: var(--tex);
+}
+
+::selection {
+	color: var(--base03);
+	background: var(--yellow);
+}
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-track {
+	background-color: var(--fg);
+}
+ 
+::-webkit-scrollbar-button {
+	background-color: var(--bg);
+}
+ 
+::-webkit-scrollbar-thumb {
+	background-color: var(--sel);
+}
+
+::-webkit-scrollbar-corner {
+	background-color: var(--fg);
+}
+
+.stable-progress {
+	color: var(--cyan)!important;
+}
+
+.stable-progress-bar {
+	background: var(--bg)!important;
+	color: var(--cyan)!important;
+}
+
+#mainInfoPane label {
+	color: var(--yellow);
+}
+
+.stable-mainTorList-col-2,
+.stable-mainInfoPane-filesTab-col-1,
+.stable-mainInfoPane-filesTab-col-2 {
+	color: var(--yellow);
+}
+
+.stable-mainInfoPane-filesTab-col-6 {
+	color: var(--red);
+}
+
+.stable-body tr.Status_Incomplete .stable-mainTorList-col-5,
+.stable-body tr.Status_Checking .stable-mainTorList-col-5 {
+	color: var(--base01)!important;
+}
+
+.stable-body tr.Status_Up .stable-mainTorList-col-5 {
+	color: var(--blue)!important;
+}
+
+.stable-body tr.Status_Error .stable-mainTorList-col-5 {
+	color: var(--red)!important;
+}
+
+.stable-body tr.Status_Completed .stable-mainTorList-col-5,
+.stable-body tr.Status_Down .stable-mainTorList-col-5,
+.stable-body tr.Status_Queued_Down .stable-mainTorList-col-5 {
+	color: var(--green)!important;
+}
+
+.stable-body tr.Status_Paused .stable-mainTorList-col-5 {
+	color: var(--yellow)!important;
+}
+
+#mainTorList .icon {
+	background: none!important;
+}
+
+.stable-icon div {
+	padding-left: 0px!important;
+}
+
+.tabIcon {
+	background: none!important;
+}
+
+.folder-tabs.icon a>span {
+	padding-left: 10px;
+}
+
+.icon li#tab_mainInfoPane-generalTab a {
+	color: var(--blue);
+}
+
+.icon li#tab_mainInfoPane-trackersTab a {
+	color: var(--green);
+}
+
+.icon li#tab_mainInfoPane-filesTab a {
+	color: var(--yellow);
+}
+
+.icon li#tab_mainInfoPane-speedTab a {
+	color: var(--red);
+}
+
+.icon li#tab_mainInfoPane-loggerTab a {
+	color: var(--base0);
+}
+
+#mainCatList .icon,
+#dlgRSSDownloader .icon {
+	background: none!important;
+}
+
+#mainCatList ul li,
+#dlgRSSDownloader ul li {
+	padding-left: 5px;
+}
+
+#cat_all,
+#cat_iac,
+.RSS_New {
+	color: var(--base0);
+}
+
+#cat_dls,
+#cat_com {
+	color: var(--green);
+}
+
+#mainCatList-labels li {
+	color: var(--violet);
+}
+
+#mainCatList-rss li,
+#dlgRSSDownloader-feeds li {
+	color: var(--orange);
+}
+
+#dlgRSSDownloader-feedItemList .icon {
+	background: none!important;
+}
+
+#cat_act .stable-dlgRSSDownloader-feedItemList-col-0,
+.RSS_Added .stable-dlgRSSDownloader-feedItemList-col-0 {
+	color: var(--blue);
+}
+
+.RSS_Old .stable-dlgRSSDownloader-feedItemList-col-0 {
+	color: var(--orange);
+}
+
+#mainCatList #mainCatList-links li .icon {
+	background-image: none!important;
+}
+
+#mainToolbar a.tbbutton {
+	opacity: 1.00;
+	-webkit-mask-image: none!important;
+}
+
+#mainToolbar a.tbbutton#add {
+	background: var(--alt);
+	color: var(--base0)!important;
+	text-align: center;
+}
+
+#mainToolbar a.tbbutton#add::before {
+	content: "AF";
+}
+
+#mainToolbar a.tbbutton#addurl {
+	background: var(--alt);
+	color: var(--blue)!important;
+	text-align: center;
+}
+
+#mainToolbar a.tbbutton#addurl::before {
+	content: "AU";
+}
+
+#mainToolbar a.tbbutton#remove {
+	background: var(--alt);
+	color: var(--red)!important;
+	text-align: center;
+}
+
+#mainToolbar a.tbbutton#remove::before {
+	content: "RM";
+}
+
+#mainToolbar a.tbbutton#start {
+	background: var(--alt);
+	color: var(--green)!important;
+	text-align: center;
+}
+
+#mainToolbar a.tbbutton#start::before {
+	content: "ST";
+}
+
+#mainToolbar a.tbbutton#pause {
+	background: var(--alt);
+	color: var(--yellow)!important;
+	text-align: center;
+}
+
+#mainToolbar a.tbbutton#pause::before {
+	content: "PA";
+}
+
+#mainToolbar a.tbbutton#stop {
+	background: var(--alt);
+	color: var(--red)!important;
+	text-align: center;
+}
+
+#mainToolbar a.tbbutton#stop::before {
+	content: "SP";
+}
+
+#mainToolbar a.tbbutton#queueup {
+	background: var(--alt);
+	color: var(--violet)!important;
+	text-align: center;
+}
+
+#mainToolbar a.tbbutton#queueup::before {
+	content: "QU";
+}
+
+#mainToolbar a.tbbutton#queuedown {
+	background: var(--alt);
+	color: var(--violet)!important;
+	text-align: center;
+}
+
+#mainToolbar a.tbbutton#queuedown::before {
+	content: "QD";
+}
+
+#mainToolbar a.tbbutton#setting {
+	background: var(--alt);
+	color: var(--base0)!important;
+	text-align: center;
+}
+
+#mainToolbar a.tbbutton#setting::before {
+	content: "SE";
+}
+
+#mainToolbar-searchbar #search { 
+	background: var(--alt);
+}
+
+#mainToolbar-searchbar #search .icon { 
+	background-image: none;
+	-webkit-mask-image: none;
+	background-color: transparent;
+}
+
+#mainToolbar-searchbar input,
+#mainToolbar-searchbar input::placeholder {
+	color: var(--yellow);
+}
+
+.dlg-body legend,
+#mainInfoPane-generalTab .header {
+	color: var(--blue);
+}
+
+#mainInfoPane-speedTab {
+	/* filter: hue-rotate(300deg); */
+}
+
+.dlg-body label {
+	color: var(--yellow);
+}
+
+.dlg-head {
+	background: none!important;
+	color: var(--orange)!important;
+	padding: .3em;
+}
+
+.dlg-close {
+	background: none;
+	color: var(--red);
+	text-align: center;
+}
+
+.dlg-close::before {
+	content: "X";
+}
+
+#mainStatusBar-menu {
+	background: none;
+	color: var(--green);
+	text-align: center;
+}
+
+#mainStatusBar-menu::before {
+	content: "\00B5T"
+}

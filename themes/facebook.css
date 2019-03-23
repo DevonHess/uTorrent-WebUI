@@ -1,0 +1,20 @@
+:root {
+	--bg: #e9ebee;
+	--fg: #fff;
+	--tool: #4267B2;
+	--alt: #f6f7f9;
+	--sel: #edf2fa;
+	--texbg: #1d2129;
+	--texfg: #1d2129;
+	--texsel: var(--tex);
+	--texdis: #90949c;
+	--texlnk: #365899;
+	--bor: #29487d;
+	--boralt: #dddfe2;
+	--bar: #4267B2;
+	--barchk: #CCCCCC;
+	--barup: #8EBFD4;
+	--barerror: #FA3E3E;
+	--bardown: #8ABF4C;
+	--speedfg: var(--bg);
+}

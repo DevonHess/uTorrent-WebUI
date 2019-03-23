@@ -1,0 +1,107 @@
+#mainTorList {
+	font-size: 50px!important;
+	height: 100%!important;
+	height: calc(100% - 100px)!important;
+	width: 100%!important;
+}
+
+table {
+	table-layout: initial!important;
+}
+
+#mainToolbar {
+	height: 100px!important;
+}
+
+.separator {
+	height: 100px!important;
+}
+
+.prevlink,
+.nextlink,
+.tbbutton {
+	transform: scale(4, 4)!important;
+	margin: 40px 40px!important;
+}
+
+.stable-infobar {
+	z-index: 1;
+}
+
+.dlg-close {
+	transform: scale(6, 6)!important;
+	margin: 20px 20px!important;
+}
+
+:not(#dlgSettings).dlg-window {
+	width: 90vw!important;
+	left: 5vw!important;
+	font-size: 4em!important;
+}
+
+.dlg-body .line-cont {
+	height: auto!important;
+}
+
+.dlg-body .fbox,
+.dlg-body .tbox,
+#dlgAddURL-cookie,
+.btn,
+.filterbar,
+.filterbar-query {
+	width: 50%!important;
+}
+
+#mainCatList,
+#mainToolbar-searchbar,
+#mainInfoPane,
+#mainStatusBar,
+#rssdownloader,
+.stable-head,
+.stable-pad table colgroup {
+	display: none!important;
+}
+
+.stable-mainTorList-col-0 div .icon,
+.stable-mainTorList-col-1,
+.stable-mainTorList-col-2,
+.stable-mainTorList-col-3,
+.stable-mainTorList-col-5,
+.stable-mainTorList-col-6,
+.stable-mainTorList-col-7,
+.stable-mainTorList-col-8,
+.stable-mainTorList-col-9,
+.stable-mainTorList-col-10,
+.stable-mainTorList-col-11,
+.stable-mainTorList-col-12,
+.stable-mainTorList-col-13,
+.stable-mainTorList-col-14,
+.stable-mainTorList-col-15,
+.stable-mainTorList-col-16,
+.stable-mainTorList-col-17,
+.stable-mainTorList-col-18,
+.stable-mainTorList-col-19 {
+	display: none!important;
+}
+
+.stable-progress,
+.stable-progress-bar {
+	border: none!important;
+	height: 2em!important;
+	display: flex!important;
+	align-items: center!important;
+}
+
+tr td.stable-mainTorList-col-0 {
+	white-space: initial!important;
+}
+
+tr td.stable-mainTorList-col-0 div {
+	width: 750px!important;
+	line-height: 1em!important;
+	height: 2em!important;
+	word-wrap: break-word!important;
+	display: -webkit-box!important;
+	-webkit-line-clamp: 2!important;
+	-webkit-box-orient: vertical!important;
+}

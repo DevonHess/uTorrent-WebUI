@@ -1,0 +1,34 @@
+:root {
+	--bg: #F0E0D6;
+	--fg: #FFFFEE;
+	--tool: var(--bg);
+	--alt: #FFF4DD;
+	--sel: #FCA;
+	--texbg: #800000;
+	--texfg: #800000;
+	--texsel: #800;
+	--texdis: #C0C0C0;
+	--texlnk: #789922;
+	--bor: #B86;
+	--boralt: #D9BFB7;
+	--bar: #FEF;
+	--bartex: var(--texbg);
+	--bartexdis: var(--bartex);
+	--barbor: var(--boralt);
+	--barchk: #CCCCCC;
+	--barincomp: var(--barchk);
+	--barup: #EFF;
+	--barqup: var(--barup);
+	--barerror: #FEE;
+	--bardown: #EFE;
+	--barcomp: var(--bardown);
+	--barqdown: var(--bardown);
+	--barpause: #FED;
+	--speedbg: var(--bg);
+	--speedfg: var(--bg);
+	--speedbor: var(--bor);
+	--speedboralt: var(--boralt);
+	--speedtex: var(--texlnk);
+	--speedup: var(--barup);
+	--speeddown: var(--bardown)
+}

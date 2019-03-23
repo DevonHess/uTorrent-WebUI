@@ -1,0 +1,70 @@
+:root {
+	--speedbg: #000040;
+	--speedfg: #000020;
+	--speedtex: #FFFFFF;
+	--speedbor: #C0C0FF;
+	--speedboralt: #20209F;
+	--speedup: #FF0000;
+	--speeddown: #00FF00;
+}
+
+.Status_Paused .stable-progress-bar {
+	background: var(--bardown);
+}
+
+#mainToolbar a.tbbutton#add {
+	background: transparent url(./classic/toolbar_add_file.png) no-repeat 0 top;
+}
+
+#mainToolbar a.tbbutton#addurl {
+	background: transparent url(./classic/toolbar_add_url.png) no-repeat 0 top;
+}
+
+#mainToolbar a.tbbutton#remove {
+	background: transparent url(./classic/toolbar_remove.png) no-repeat 0 top;
+}
+
+#mainToolbar a.tbbutton#start {
+	background: transparent url(./classic/toolbar_start.png) no-repeat 0 top;
+}
+
+#mainToolbar a.tbbutton#pause {
+	background: transparent url(./classic/toolbar_pause.png) no-repeat 0 top;
+}
+
+#mainToolbar a.tbbutton#stop {
+	background: transparent url(./classic/toolbar_stop.png) no-repeat 0 top;
+}
+
+#mainToolbar a.tbbutton#queueup {
+	background: transparent url(./classic/toolbar_queue_up.png) no-repeat 0 top;
+}
+
+#mainToolbar a.tbbutton#queuedown {
+	background: transparent url(./classic/toolbar_queue_down.png) no-repeat 0 top;
+}
+
+#mainToolbar a.tbbutton#rssdownloader {
+	background: transparent url(./classic/toolbar_add_feed.png) no-repeat 0 top;
+}
+
+#mainToolbar a.tbbutton#setting {
+	background: transparent url(./classic/toolbar_preferences.png) no-repeat 0 top;
+}
+
+#mainCatList #cat_all .icon {
+	background: transparent url(./classic/tstatus_torrents.png) no-repeat;
+	background-position: 0% 0%!important;
+}
+
+#mainCatList #cat_dls .icon {
+	background: transparent url(./classic/tstatus_downloading.png) no-repeat;
+	background-position: 0% 0%!important;
+	transform: none;
+	margin: -8px 3px!important;
+}
+
+#mainCatList #cat_com .icon {
+	background: transparent url(./classic/tstatus_finished.png) no-repeat;
+	background-position: 0% 0%!important;
+}

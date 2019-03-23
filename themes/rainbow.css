@@ -1,0 +1,38 @@
+.stable-body tr.odd, .stable-body tbody.sorted-0 tr:not(.selected) td:nth-child(1), .stable-body tbody.sorted-1 tr:not(.selected) td:nth-child(2), .stable-body tbody.sorted-2 tr:not(.selected) td:nth-child(3), .stable-body tbody.sorted-3 tr:not(.selected) td:nth-child(4), .stable-body tbody.sorted-4 tr:not(.selected) td:nth-child(5), .stable-body tbody.sorted-5 tr:not(.selected) td:nth-child(6), .stable-body tbody.sorted-6 tr:not(.selected) td:nth-child(7), .stable-body tbody.sorted-7 tr:not(.selected) td:nth-child(8), .stable-body tbody.sorted-8 tr:not(.selected) td:nth-child(9), .stable-body tbody.sorted-9 tr:not(.selected) td:nth-child(10), .stable-body tbody.sorted-10 tr:not(.selected) td:nth-child(11), .stable-body tbody.sorted-11 tr:not(.selected) td:nth-child(12), .stable-body tbody.sorted-12 tr:not(.selected) td:nth-child(13), .stable-body tbody.sorted-13 tr:not(.selected) td:nth-child(14), .stable-body tbody.sorted-14 tr:not(.selected) td:nth-child(15), .stable-body tbody.sorted-15 tr:not(.selected) td:nth-child(16), .stable-body tbody.sorted-16 tr:not(.selected) td:nth-child(17), .stable-body tbody.sorted-17 tr:not(.selected) td:nth-child(18), .stable-body tbody.sorted-18 tr:not(.selected) td:nth-child(19), .stable-body tbody.sorted-19 tr:not(.selected) td:nth-child(20) {
+	background: none;
+}
+
+.stable-body tr:nth-child(7n+0) .stable-progress-bar,
+.stable-body tr:nth-child(7n+1) {
+	background: red;
+}
+
+.stable-body tr:nth-child(7n+1) .stable-progress-bar,
+.stable-body tr:nth-child(7n+2) {
+	background: orange;
+}
+
+.stable-body tr:nth-child(7n+2) .stable-progress-bar,
+.stable-body tr:nth-child(7n+3) {
+	background: yellow;
+}
+
+.stable-body tr:nth-child(7n+3) .stable-progress-bar,
+.stable-body tr:nth-child(7n+4) {
+	background: green;
+}
+
+.stable-body tr:nth-child(7n+4) .stable-progress-bar,
+.stable-body tr:nth-child(7n+5) {
+	background: blue;
+}
+
+.stable-body tr:nth-child(7n+5) .stable-progress-bar,
+.stable-body tr:nth-child(7n+6) {
+	background: indigo;
+}
+
+.stable-body tr:nth-child(7n+6) .stable-progress-bar,
+.stable-body tr:nth-child(7n+7) {
+	background: blueviolet;
+}

@@ -1,0 +1,19 @@
+:root {
+	--bg: #444444;
+	--fg: #F2F1F0;
+	--tool: var(--bg);
+	--alt: #F7F6F6;
+	--sel: #F08357;
+	--texbg: #DDD9D0;
+	--texfg: #4C4C4C;
+	--texdis: #95918C;
+	--texlnk: #F28846;
+	--bor: #C9C6C3;
+	--boralt: #dddfe2;
+	--bar: #DB6A3C;
+	--barchk: #CCCCCC;
+	--barup: #326CE5;
+	--barerror: #DA2643;
+	--bardown: #0E8420;
+	--barpause: #F99B11;
+}
